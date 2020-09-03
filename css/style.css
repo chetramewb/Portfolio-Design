@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+body{font-size:12px; margin:0 auto; font-family: 'Montserrat', sans-serif; }
+.container {
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.gallery-title {
+font-size: 36px;
+color: #47CD51;
+text-align: center;
+font-weight: 500;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.filter-button {
+font-size: 18px;
+border: 1px solid#47CD51;
+border-radius: 5px;
+text-align: center;
+color: #47CD51;
+margin-bottom: 30px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.filter-button:hover {
+font-size: 18px;
+border: 1px solid #47CD51;
+border-radius: 5px;
+text-align: center;
+color: #ffffff;
+background-color: #47CD51;
+}
+
+.btn-default:active .filter-button:active {
+background-color: #FFA500;
+color: white
+}
+
+.port-image {
+width: 100%
+}
+
+.gallery_product {
+margin-bottom: 30px
+}
+.img-responsive {
+border: 2px solid transparent !important;
+}
+.img-responsive:hover {
+opacity: 0.7;
+transition: all ease-in-out 0.5s;
+border: 2px solid #47CD51 !important;
+}
+
+
+.gallery_product img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+border-radius: 5px
+}
+
+.text-style img {
+width: 100%;
+max-width: 50%;
+float: left;
+margin-right: 20px;
+}
+
+
+.text-style h2 {
+font-family: "LeagueSpartan-Bold", Sans-serif;
+font-size: 30px;
+line-height: 35px;
+color: #47CD51;
+font-weight: 6;
+}
+
+.text-style p {
+font-size: 16px;
+font-weight: 400;
+font-style: italic;
+line-height: 33px;
+}
+.demo-btn {
+font-size: 16px;
+color: #23A455;
+background: transparent;
+padding: 7px 50px;
+border: 1px solid #23A455;
+border-radius: 50px;
+font-weight: 600;
+text-decoration: none;
+display: inline-block;
+}
+
+.demo-btn:hover {
+background: #23A455 !important;
+color: #fff !important;
+transition: all ease-in-out 0.5s;
+}
+
+@media only screen and (max-width:1204px) {
+.text-style h2 {	
+font-size: 28px;
+}
+.text-style p {
+line-height: 28px;
+}
+}
+
+
+@media only screen and (max-width:767px) {
+.text-style {
+text-align: center;
+}
+.text-style img {
+width: 100%;
+max-width: 100%;
+float: left;
+margin-right: 0px;
+margin-bottom: 20px;
+}
+.text-style h2 {
+font-size: 24px;
+
+}
+
+.demo-btn {
+width: 100%;
+display: block;
+text-align: center;
+}
+}
+
+@media only screen and (max-width:575px) {
+.text-style h2 {
+font-size: 20px;
+	
+}
+}
